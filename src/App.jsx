@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import ProductCard from "./components/ProductCard";
 import ProductPage from "./components/ProductPage";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navBar";
 import AddProduct from "./components/AddProduct";
 function App() {
   const [products, setProducts] = useState([]);
