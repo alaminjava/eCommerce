@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import ProductCard from "./components/ProductCard.jsx";
 import ProductPage from "./components/ProductPage.jsx";
-import Navbar from "./components/navBar.jsx";
+import Navbar from "./components/Navbar.jsx";
 import AddProduct from "./components/AddProduct.jsx";
 function App() {
   const [products, setProducts] = useState([]);
@@ -25,7 +25,7 @@ function App() {
   return (
     <Router>
 
-      <navBar />
+      <Navbar />
 
       <Routes>
 
