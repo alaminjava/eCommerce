@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import ProductCard from "./components/ProductCard";
-import ProductPage from "./components/ProductPage";
-import Navbar from "./components/navBar";
-import AddProduct from "./components/AddProduct";
+import ProductCard from "./components/ProductCard.jsx";
+import ProductPage from "./components/ProductPage.jsx";
+import Navbar from "./components/Navbar.jsx";
+import AddProduct from "./components/AddProduct.jsx";
 function App() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
